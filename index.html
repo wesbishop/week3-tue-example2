@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Week3 - Example 2</title>
+  <style>
+    .indent {
+      padding: 0px;
+      margin-left: 10px
+    }
+    
+    p {
+      margin: 0px
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Nesting div tags - I tried some css for indenting</h1>
+  <h2 style="color:red">CSS hates me!!</h2>
+  <div classs="level-top">
+    <p>This div contains this text and the div tag below.</p>
+    <div class="level-2 indent">
+      <p>Hi' I'm the div tag that was mentioned in my parent div! I contain his text and two other children divs</p>
+      <div class="level-3 indent">
+        <p>Hi! Our parent was just talking about us. Please make sure you indent this example appropriately.</p>
+      </div>
+      <div class="level-4 indent">
+        <p>Hi! Our parent was just talking about us. Please make sure you indent this example appropriately.</p>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
